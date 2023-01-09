@@ -46,3 +46,7 @@
 - Calificar comprador
 - Cambiar estado de compra/venta
 - Editar perfil
+
+## Imágenes
+
+![Alt text](demo.gif)
