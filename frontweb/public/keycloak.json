@@ -1,0 +1,8 @@
+{
+  "realm": "proyecto",
+  "auth-server-url": "http://192.168.13.120:8080/auth  ",
+  "ssl-required": "external",
+  "resource": "proyecto",
+  "public-client": true,
+  "confidential-port": 0
+}

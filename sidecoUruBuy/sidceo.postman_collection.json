@@ -1,0 +1,272 @@
+{
+	"info": {
+		"_postman_id": "35c4bf9a-676f-48b6-920c-38373f83d047",
+		"name": "sidceo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "IdCardOld",
+			"item": [
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"personalId\": \"42721741\",\r\n    \"serie\": \"K\",\r\n    \"folNumber\": \"457388\",   \r\n    \"name\": \"Michael\",\r\n    \"lastName\": \"Rodriguez\",   \r\n    \"birthday\": \"01/10/1999\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{sideco}}/v1/addIdCardOld",
+							"host": [
+								"{{sideco}}"
+							],
+							"path": [
+								"v1",
+								"addIdCardOld"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "localhost:5001/v1/getIdCardOld/42721741/k/457388",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"v1",
+								"getIdCardOld",
+								"42721741",
+								"k",
+								"457388"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5001/v1/listAllIdCardOld",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"v1",
+								"listAllIdCardOld"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "edit",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 2,\r\n    \"personalId\": \"12345678\",\r\n    \"barCode\": \"ABCDEF\",    \r\n    \"name\": \"Consecutivo\",\r\n    \"lastName\": \"Ramirez Cuarta\",   \r\n    \"birthday\": \"15/02/2012\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{sideco}}/v1/editIdCardOld",
+							"host": [
+								"{{sideco}}"
+							],
+							"path": [
+								"v1",
+								"editIdCardOld"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{sideco}}/v1/deleteIdCardOld/{{personalId}}",
+							"host": [
+								"{{sideco}}"
+							],
+							"path": [
+								"v1",
+								"deleteIdCardOld",
+								"{{personalId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "IdCardNew",
+			"item": [
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"personalId\": \"42721741\",\r\n    \"secureCode\": \"457388K0P\",\r\n    \"name\": \"Michael\",\r\n    \"lastName\": \"Rodriguez\",\r\n    \"birthday\": \"01/10/1999\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{sideco}}/v1/addIdCardNew",
+							"host": [
+								"{{sideco}}"
+							],
+							"path": [
+								"v1",
+								"addIdCardNew"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "lisT",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{sideco}}/v1/listIdCardNew",
+							"host": [
+								"{{sideco}}"
+							],
+							"path": [
+								"v1",
+								"listIdCardNew"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "localhost:5001/v1/getIdCardNew/{{personalId}}/{{secureCode}}",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"v1",
+								"getIdCardNew",
+								"{{personalId}}",
+								"{{secureCode}}"
+							],
+							"query": [
+								{
+									"key": "ci",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{sideco}}/v1/ping",
+					"host": [
+						"{{sideco}}"
+					],
+					"path": [
+						"v1",
+						"ping"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "sideco",
+			"value": "localhost:5001"
+		},
+		{
+			"key": "personalId",
+			"value": "personalId"
+		},
+		{
+			"key": "secureCode",
+			"value": "secureCode"
+		}
+	]
+}

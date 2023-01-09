@@ -1,0 +1,3414 @@
+{
+	"info": {
+		"_postman_id": "419ea54e-4706-45ba-a90d-6b120c3e9a3d",
+		"name": "pry",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18153267"
+	},
+	"item": [
+		{
+			"name": "local",
+			"item": [
+				{
+					"name": "usuario",
+					"item": [
+						{
+							"name": "alta",
+							"item": [
+								{
+									"name": "user/addComprador",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{      \r\n    \"username\": \"maty\",\r\n    \"email\": \"fernandez.mathias@icloud.com\",\r\n    \"password\": \"flashh\",\r\n    \"rating\": 10\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{local}}/user/addCustomer",
+											"host": [
+												"{{local}}"
+											],
+											"path": [
+												"user",
+												"addCustomer"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/addVendedor",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{      \r\n    \"username\": \"maty\",\r\n    \"email\": \"fernandez.mathias@icloud.com\",\r\n    \"password\": \"flashh\",\r\n    \"rating\": 10,\r\n    \"barcode\": \"1FG\",\r\n    \"personalId\": \"50266567\",\r\n    \"name\": \"mathias\",\r\n    \"surname\": \"fernandez\"\r\n    \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{local}}/user/addSeller",
+											"host": [
+												"{{local}}"
+											],
+											"path": [
+												"user",
+												"addSeller"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/addAdmin",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{      \r\n    \"username\": \"admin\",\r\n    \"email\": \"urubuying@gmail.com\",\r\n    \"password\": \"UruBuy22!\"     \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{local}}/user/addAdmin",
+											"host": [
+												"{{local}}"
+											],
+											"path": [
+												"user",
+												"addAdmin"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "buscar",
+							"item": [
+								{
+									"name": "user/buscarId",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{local}}/user/searchId/7",
+											"host": [
+												"{{local}}"
+											],
+											"path": [
+												"user",
+												"searchId",
+												"7"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/buscar",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{local}}/user/search/maty",
+											"host": [
+												"{{local}}"
+											],
+											"path": [
+												"user",
+												"search",
+												"maty"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/list",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{local}}/user/list",
+											"host": [
+												"{{local}}"
+											],
+											"path": [
+												"user",
+												"list"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "modifcar",
+							"item": [
+								{
+									"name": "user/modificarComprador",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"idUser\": \"7\",\r\n    \"email\": \"maty@gmail.com\",\r\n    \"password\": \"$2a$10$PUYLrqF1E71bEcT1oBnhYOaFiinjAF2..RnysOWta2pFj0zWsroLK\",\r\n    \"username\": \"maty\",\r\n    \"rating\": 10,\r\n    \"bloqueado\": false,\r\n    \"direcciones\": [],\r\n    \"rol\": \"Comprador\"\r\n    \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{local}}/user/editCustomer",
+											"host": [
+												"{{local}}"
+											],
+											"path": [
+												"user",
+												"editCustomer"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/modificarVendedor",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"idUser\": \"11\",     \r\n    \"username\": \"maty\",\r\n    \"email\": \"fernandez.mathias@icloud.com\",\r\n    \"password\": \"flashh\",\r\n    \"rating\": 10,\r\n    \"barcode\": \"1FG\",\r\n    \"personalId\": \"50266567\",\r\n    \"name\": \"mathias\",\r\n    \"surname\": \"fernandez\"\r\n    \r\n}\r\n    \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{local}}/user/editSeller",
+											"host": [
+												"{{local}}"
+											],
+											"path": [
+												"user",
+												"editSeller"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/modificarAdmin",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{      \r\n    \"idUser\": 8, \r\n    \"email\": \"urubuying@gmail.com\",\r\n    \"password\": \"UruBuy22!\"     \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{local}}/user/editAdmin",
+											"host": [
+												"{{local}}"
+											],
+											"path": [
+												"user",
+												"editAdmin"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "eliminar",
+							"item": [
+								{
+									"name": "user/eliminarComprador",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{      \r\n    \"username\": \"maty\",\r\n    \"email\": \"fernandez.mathias@icloud.com\",\r\n    \"password\": \"flashh\",\r\n    \"rating\": 10\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{local}}/user/deleteCustomer/maty",
+											"host": [
+												"{{local}}"
+											],
+											"path": [
+												"user",
+												"deleteCustomer",
+												"maty"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/eliminarVendedor",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{      \r\n    \"username\": \"maty\",\r\n    \"email\": \"fernandez.mathias@icloud.com\",\r\n    \"password\": \"flashh\",\r\n    \"rating\": 10\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{local}}/user/deleteSeller/maty",
+											"host": [
+												"{{local}}"
+											],
+											"path": [
+												"user",
+												"deleteSeller",
+												"maty"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/eliminarAdmin",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{      \r\n    \"username\": \"maty\",\r\n    \"email\": \"fernandez.mathias@icloud.com\",\r\n    \"password\": \"flashh\",\r\n    \"rating\": 10\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{local}}/user/deleteAdmin/urubuying@gmail.com",
+											"host": [
+												"{{local}}"
+											],
+											"path": [
+												"user",
+												"deleteAdmin",
+												"urubuying@gmail.com"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "categoria",
+					"item": [
+						{
+							"name": "agregarCategoria",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Tecnología\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{local}}/category/add",
+									"host": [
+										"{{local}}"
+									],
+									"path": [
+										"category",
+										"add"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "listCategorias",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{local}}/category/list",
+									"host": [
+										"{{local}}"
+									],
+									"path": [
+										"category",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "buscarId",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{local}}/category/searchId/1",
+									"host": [
+										"{{local}}"
+									],
+									"path": [
+										"category",
+										"searchId",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "buscar",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{local}}/category/search/Tecnologiaaa",
+									"host": [
+										"{{local}}"
+									],
+									"path": [
+										"category",
+										"search",
+										"Tecnologiaaa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "editar",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Tecnologia\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{local}}/category/edit",
+									"host": [
+										"{{local}}"
+									],
+									"path": [
+										"category",
+										"edit"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "eliminar por id",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{local}}/category/deleteId/1",
+									"host": [
+										"{{local}}"
+									],
+									"path": [
+										"category",
+										"deleteId",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "eliminar por nombre",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": 2,\r\n    \"name\": \"Vestimenta\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{local}}/category/delete",
+									"host": [
+										"{{local}}"
+									],
+									"path": [
+										"category",
+										"delete"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "compra/venta",
+					"item": [
+						{
+							"name": "crear compra/venta",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"status\": \"PREPARING_ORDER\",\r\n    \"date\": \"2022-10-12\",\r\n    \"total\": 100,\r\n    \"isDelivery\": true,\r\n    \"address\": \"Correch 1267 Ap 71 CAN Pando\"    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{local}}/purchase/create",
+									"host": [
+										"{{local}}"
+									],
+									"path": [
+										"purchase",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "listCompraVenta",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{local}}/purchase/list",
+									"host": [
+										"{{local}}"
+									],
+									"path": [
+										"purchase",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "buscarId",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{local}}/purchase/searchId/5",
+									"host": [
+										"{{local}}"
+									],
+									"path": [
+										"purchase",
+										"searchId",
+										"5"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "editar",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": 5,\r\n    \"status\": \"DELIVERED\",\r\n    \"date\": \"2022-10-12\",\r\n    \"total\": 100,\r\n    \"isDelivery\": true,\r\n    \"address\": \"Correch 1267 Ap 71 CAN Pando\"    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{local}}/purchase/update",
+									"host": [
+										"{{local}}"
+									],
+									"path": [
+										"purchase",
+										"update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "eliminar por id",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{local}}/purchase/deleteId/7",
+									"host": [
+										"{{local}}"
+									],
+									"path": [
+										"purchase",
+										"deleteId",
+										"7"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "set id order paypal",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"idPurchase\": \"7\",\r\n    \"idOrderPaypal\": \"1\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{local}}/purchase/setOrder",
+									"host": [
+										"{{local}}"
+									],
+									"path": [
+										"purchase",
+										"setOrder"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "ping",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local}}/user/ping",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"user",
+								"ping"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "poc",
+			"item": [
+				{
+					"name": "user/list",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+									"type": "string"
+								},
+								{
+									"key": "tokenName",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "clientSecret",
+									"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+									"type": "string"
+								},
+								{
+									"key": "accessTokenUrl",
+									"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+									"type": "string"
+								},
+								{
+									"key": "grant_type",
+									"value": "password_credentials",
+									"type": "string"
+								},
+								{
+									"key": "useBrowser",
+									"value": false,
+									"type": "boolean"
+								},
+								{
+									"key": "client_authentication",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "scope",
+									"value": "openid",
+									"type": "string"
+								},
+								{
+									"key": "clientId",
+									"value": "backend",
+									"type": "string"
+								},
+								{
+									"key": "authUrl",
+									"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8190/backend/user/list",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8190",
+							"path": [
+								"backend",
+								"user",
+								"list"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user/buscarId",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "clientSecret",
+									"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+									"type": "string"
+								},
+								{
+									"key": "tokenName",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "accessTokenUrl",
+									"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "grant_type",
+									"value": "password_credentials",
+									"type": "string"
+								},
+								{
+									"key": "useBrowser",
+									"value": false,
+									"type": "boolean"
+								},
+								{
+									"key": "client_authentication",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "scope",
+									"value": "openid",
+									"type": "string"
+								},
+								{
+									"key": "clientId",
+									"value": "backend",
+									"type": "string"
+								},
+								{
+									"key": "authUrl",
+									"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8190/backend/user/buscarId?id=23",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8190",
+							"path": [
+								"backend",
+								"user",
+								"buscarId"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "23"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user/buscar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/backend/usuarios/buscarUser?value=mf2@gg",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"backend",
+								"usuarios",
+								"buscarUser"
+							],
+							"query": [
+								{
+									"key": "value",
+									"value": "mf2@gg"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user/add",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "clientSecret",
+									"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+									"type": "string"
+								},
+								{
+									"key": "tokenName",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "accessTokenUrl",
+									"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+									"type": "string"
+								},
+								{
+									"key": "grant_type",
+									"value": "password_credentials",
+									"type": "string"
+								},
+								{
+									"key": "useBrowser",
+									"value": false,
+									"type": "boolean"
+								},
+								{
+									"key": "client_authentication",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "scope",
+									"value": "openid",
+									"type": "string"
+								},
+								{
+									"key": "clientId",
+									"value": "backend",
+									"type": "string"
+								},
+								{
+									"key": "authUrl",
+									"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombreUsuario\": \"maty\",\r\n    \"cedula\": \"50266567\",\r\n    \"correo\": \"fernandez.mathias@icloud.com\",\r\n    \"password\": \"flashh\",\r\n    \"birthdate\": \"10/02/1996\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://urubuy.us-east-1.elasticbeanstalk.com/user/add",
+							"protocol": "http",
+							"host": [
+								"urubuy",
+								"us-east-1",
+								"elasticbeanstalk",
+								"com"
+							],
+							"path": [
+								"user",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user/delete",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "accessToken",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzA1MjYsImlhdCI6MTY2MjY3MDIyNiwianRpIjoiN2EwMmJlZjItYzgyNS00ZGEyLTg5ODUtMmQ4MzM2ZjhhNDUwIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiMWY5MTkzMGUtMjgzOC00YzY0LTkyOTUtOGMwYmJmNmNkMWIzIiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiIxZjkxOTMwZS0yODM4LTRjNjQtOTI5NS04YzBiYmY2Y2QxYjMiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.N9sAlFWTQ2nZrwNmv-oTeaKCy9Q5052KAAQGcudnK_uKgVzuYvb5wayHZCZE_FMdXvuUL_Npm0_Wzgh9w4Mu_S5VKRGM2khODRG06dve299rNViyqVKczWWjJMY3tyEIdhskX1pORA81XQQbPHKhhYUcJLHrbFdDi1oK-d1MCsjmVb03XcZTOkVU5X1LddO4Nntlb38V3Vtt-aiZ7sB4tvSGt_98l6RYElgTEWBdEIVJ_2DiB_GX10N4ECENxEpFtMoOm1oVJBjK7kXjwGCdAunxRY71chollucIA5JE_oi0W0LVnVc4Qg_H918fEGpQsw65YKVDya26lVpFBjJUZg",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "clientSecret",
+									"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+									"type": "string"
+								},
+								{
+									"key": "tokenName",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "accessTokenUrl",
+									"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+									"type": "string"
+								},
+								{
+									"key": "grant_type",
+									"value": "password_credentials",
+									"type": "string"
+								},
+								{
+									"key": "useBrowser",
+									"value": false,
+									"type": "boolean"
+								},
+								{
+									"key": "client_authentication",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "scope",
+									"value": "openid",
+									"type": "string"
+								},
+								{
+									"key": "clientId",
+									"value": "backend",
+									"type": "string"
+								},
+								{
+									"key": "authUrl",
+									"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8190/backend/user/borrar?id=20",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8190",
+							"path": [
+								"backend",
+								"user",
+								"borrar"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombreUsuario\": \"mathu10_\",\r\n    \"password\": \"flashh\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "registro",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "clientSecret",
+									"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+									"type": "string"
+								},
+								{
+									"key": "tokenName",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "accessTokenUrl",
+									"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+									"type": "string"
+								},
+								{
+									"key": "grant_type",
+									"value": "password_credentials",
+									"type": "string"
+								},
+								{
+									"key": "useBrowser",
+									"value": false,
+									"type": "boolean"
+								},
+								{
+									"key": "client_authentication",
+									"value": "header",
+									"type": "string"
+								},
+								{
+									"key": "scope",
+									"value": "openid",
+									"type": "string"
+								},
+								{
+									"key": "clientId",
+									"value": "backend",
+									"type": "string"
+								},
+								{
+									"key": "authUrl",
+									"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"correo\": \"fotarda@gmail\",\r\n    \"nombreUsuario\": \"Fotarda\",\r\n    \"password\": \"Fotarda\",\r\n    \"foto\": \"ASDJKHHJHJSAD\"\r\n    \r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/user/registro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"user",
+								"registro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "aws",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "pay",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"price\": 100,\r\n    \"currency\": \"USD\",\r\n    \"description\": \"d\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "aws",
+			"item": [
+				{
+					"name": "usuario",
+					"item": [
+						{
+							"name": "alta",
+							"item": [
+								{
+									"name": "user/addComprador",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{      \r\n    \"username\": \"maty\",\r\n    \"email\": \"fernandez.mathias@icloud.com\",\r\n    \"password\": \"flashh\",\r\n    \"rating\": 10\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{aws}}/user/addCustomer",
+											"host": [
+												"{{aws}}"
+											],
+											"path": [
+												"user",
+												"addCustomer"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/addVendedor",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{      \r\n    \"username\": \"maty\",\r\n    \"email\": \"fernandez.mathias@icloud.com\",\r\n    \"password\": \"flashh\",\r\n    \"rating\": 10,\r\n    \"barcode\": \"1FG\",\r\n    \"personalId\": \"50266567\",\r\n    \"name\": \"mathias\",\r\n    \"surname\": \"fernandez\"\r\n    \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{aws}}/user/addSeller",
+											"host": [
+												"{{aws}}"
+											],
+											"path": [
+												"user",
+												"addSeller"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/addAdmin",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{      \r\n    \"username\": \"admin\",\r\n    \"email\": \"urubuying@gmail.com\",\r\n    \"password\": \"UruBuy22!\"     \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{aws}}/user/addAdmin",
+											"host": [
+												"{{aws}}"
+											],
+											"path": [
+												"user",
+												"addAdmin"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "buscar",
+							"item": [
+								{
+									"name": "user/buscarId",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{aws}}/user/searchId/7",
+											"host": [
+												"{{aws}}"
+											],
+											"path": [
+												"user",
+												"searchId",
+												"7"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/buscar",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{aws}}/user/search/maty",
+											"host": [
+												"{{aws}}"
+											],
+											"path": [
+												"user",
+												"search",
+												"maty"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/list",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{aws}}/user/list",
+											"host": [
+												"{{aws}}"
+											],
+											"path": [
+												"user",
+												"list"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "modifcar",
+							"item": [
+								{
+									"name": "user/modificarComprador",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"idUser\": \"7\",\r\n    \"email\": \"maty@gmail.com\",\r\n    \"password\": \"$2a$10$PUYLrqF1E71bEcT1oBnhYOaFiinjAF2..RnysOWta2pFj0zWsroLK\",\r\n    \"username\": \"maty\",\r\n    \"rating\": 10,\r\n    \"bloqueado\": false,\r\n    \"direcciones\": [],\r\n    \"rol\": \"Comprador\"\r\n    \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{aws}}/user/editCustomer",
+											"host": [
+												"{{aws}}"
+											],
+											"path": [
+												"user",
+												"editCustomer"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/modificarVendedor",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"idUser\": \"11\",     \r\n    \"username\": \"maty\",\r\n    \"email\": \"fernandez.mathias@icloud.com\",\r\n    \"password\": \"flashh\",\r\n    \"rating\": 10,\r\n    \"barcode\": \"1FG\",\r\n    \"personalId\": \"50266567\",\r\n    \"name\": \"mathias\",\r\n    \"surname\": \"fernandez\"\r\n    \r\n}\r\n    \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{aws}}/user/editSeller",
+											"host": [
+												"{{aws}}"
+											],
+											"path": [
+												"user",
+												"editSeller"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/modificarAdmin",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{      \r\n    \"idUser\": 8, \r\n    \"email\": \"urubuying@gmail.com\",\r\n    \"password\": \"UruBuy22!\"     \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{aws}}/user/editAdmin",
+											"host": [
+												"{{aws}}"
+											],
+											"path": [
+												"user",
+												"editAdmin"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "eliminar",
+							"item": [
+								{
+									"name": "user/eliminarComprador",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{      \r\n    \"username\": \"maty\",\r\n    \"email\": \"fernandez.mathias@icloud.com\",\r\n    \"password\": \"flashh\",\r\n    \"rating\": 10\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{aws}}/user/deleteCustomer/maty",
+											"host": [
+												"{{aws}}"
+											],
+											"path": [
+												"user",
+												"deleteCustomer",
+												"maty"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/eliminarVendedor",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{      \r\n    \"username\": \"maty\",\r\n    \"email\": \"fernandez.mathias@icloud.com\",\r\n    \"password\": \"flashh\",\r\n    \"rating\": 10\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{aws}}/user/deleteSeller/maty",
+											"host": [
+												"{{aws}}"
+											],
+											"path": [
+												"user",
+												"deleteSeller",
+												"maty"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "user/eliminarAdmin",
+									"request": {
+										"auth": {
+											"type": "oauth2",
+											"oauth2": [
+												{
+													"key": "tokenType",
+													"value": "Bearer",
+													"type": "string"
+												},
+												{
+													"key": "accessToken",
+													"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTY19LejN2SkhHeU1sZmoyLU0zbHhTclJsZHZwM1pJcWNmR0ZvMENKSERjIn0.eyJleHAiOjE2NjI2NzQ4NzYsImlhdCI6MTY2MjY3NDU3NiwianRpIjoiYzM1MzEzYjgtODVhYy00M2VmLTlhYmUtNTQzNTQwYzhlZTY1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MTgwL3JlYWxtcy9tYXRoaWFzX3Byb3llY3RvIiwiYXVkIjpbInJlYWxtLW1hbmFnZW1lbnQiLCJhY2NvdW50Il0sInN1YiI6IjZkM2RmNDc0LWQ0MGItNDcxOC04YTVhLWFkOTBkMzAxZmY0NyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImJhY2tlbmQiLCJzZXNzaW9uX3N0YXRlIjoiOTIwNDVmMGEtMThlMS00YzJjLWFjZjYtZjllZmU3YjRmYzc1IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLW1hdGhpYXNfcHJveWVjdG8iLCJvZmZsaW5lX2FjY2VzcyIsImFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImJhY2tlbmQiOnsicm9sZXMiOlsiYWRtaW4iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJzaWQiOiI5MjA0NWYwYS0xOGUxLTRjMmMtYWNmNi1mOWVmZTdiNGZjNzUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIn0.QkF6aSzPvs1w4efodszsqOL-qdhsr2H9aHbHsB_LTH3ZC5IjebesuFxuGK9Sa1lipbq-OST0mJjUtOloeTgbAvNHamIfcnZnytl_yDK3t2mRhBIFgSIx0i8eTO2bXRLpEI7QjXeBmDKeXA1SNdkTXwELVh6GQRpacC13-4h-gzut95hbnBKgZxi6tl1JVOMeKDxWYWlO7Do6HbO7uMXBcXts07yetZ5HpeMQyNscp50_MDE6J2oAAKUZ8EvIGH4s34MVhyWjGf33Z57DG3PQQg_2_rSvocQX7R6oGl9gmLS08mamFapbhPpPe_8wdZ8EQUV-RxKgjeh0CDWYhqGuaQ",
+													"type": "string"
+												},
+												{
+													"key": "password",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "username",
+													"value": "admin",
+													"type": "string"
+												},
+												{
+													"key": "clientSecret",
+													"value": "sCEOv5axeKNZ8WzTq7yJcTRY3yCG7ckU",
+													"type": "string"
+												},
+												{
+													"key": "tokenName",
+													"value": "",
+													"type": "string"
+												},
+												{
+													"key": "accessTokenUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "grant_type",
+													"value": "password_credentials",
+													"type": "string"
+												},
+												{
+													"key": "useBrowser",
+													"value": false,
+													"type": "boolean"
+												},
+												{
+													"key": "client_authentication",
+													"value": "header",
+													"type": "string"
+												},
+												{
+													"key": "scope",
+													"value": "openid",
+													"type": "string"
+												},
+												{
+													"key": "clientId",
+													"value": "backend",
+													"type": "string"
+												},
+												{
+													"key": "authUrl",
+													"value": "http://localhost:8180/realms/mathias_proyecto/protocol/openid-connect/token",
+													"type": "string"
+												},
+												{
+													"key": "addTokenTo",
+													"value": "header",
+													"type": "string"
+												}
+											]
+										},
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{      \r\n    \"username\": \"maty\",\r\n    \"email\": \"fernandez.mathias@icloud.com\",\r\n    \"password\": \"flashh\",\r\n    \"rating\": 10\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{aws}}/user/deleteAdmin/urubuying@gmail.com",
+											"host": [
+												"{{aws}}"
+											],
+											"path": [
+												"user",
+												"deleteAdmin",
+												"urubuying@gmail.com"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "categoria Copy",
+					"item": [
+						{
+							"name": "agregarCategoria",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"Vestimenta\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{aws}}/category/add",
+									"host": [
+										"{{aws}}"
+									],
+									"path": [
+										"category",
+										"add"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "listCategorias",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{aws}}/category/list",
+									"host": [
+										"{{aws}}"
+									],
+									"path": [
+										"category",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "buscarId",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{aws}}/category/searchId/1",
+									"host": [
+										"{{aws}}"
+									],
+									"path": [
+										"category",
+										"searchId",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "buscar",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{aws}}/category/search/Tecnología",
+									"host": [
+										"{{aws}}"
+									],
+									"path": [
+										"category",
+										"search",
+										"Tecnología"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "editar",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Tecnologiaaa\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{aws}}/category/edit",
+									"host": [
+										"{{aws}}"
+									],
+									"path": [
+										"category",
+										"edit"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "eliminar por id",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Tecnologia\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{aws}}/category/deleteId/1",
+									"host": [
+										"{{aws}}"
+									],
+									"path": [
+										"category",
+										"deleteId",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "eliminar por nombre",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Tecnologia\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{aws}}/category/delete/Tecnología",
+									"host": [
+										"{{aws}}"
+									],
+									"path": [
+										"category",
+										"delete",
+										"Tecnología"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "compra/venta Copy",
+					"item": [
+						{
+							"name": "crear compra/venta",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"status\": \"PREPARING_ORDER\",\r\n    \"date\": \"2022-10-12\",\r\n    \"total\": 100,\r\n    \"isDelivery\": true,\r\n    \"address\": \"Correch 1267 Ap 71 CAN Pando\"    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{aws}}/purchase/create",
+									"host": [
+										"{{aws}}"
+									],
+									"path": [
+										"purchase",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "listCompraVenta",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{aws}}/purchase/list",
+									"host": [
+										"{{aws}}"
+									],
+									"path": [
+										"purchase",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "buscarId",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{aws}}/purchase/searchId/5",
+									"host": [
+										"{{aws}}"
+									],
+									"path": [
+										"purchase",
+										"searchId",
+										"5"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "editar",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": 5,\r\n    \"status\": \"DELIVERED\",\r\n    \"date\": \"2022-10-12\",\r\n    \"total\": 100,\r\n    \"isDelivery\": true,\r\n    \"address\": \"Correch 1267 Ap 71 CAN Pando\"    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{aws}}/purchase/update",
+									"host": [
+										"{{aws}}"
+									],
+									"path": [
+										"purchase",
+										"update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "eliminar por id",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{aws}}/purchase/deleteId/7",
+									"host": [
+										"{{aws}}"
+									],
+									"path": [
+										"purchase",
+										"deleteId",
+										"7"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "set id order paypal",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"idPurchase\": \"7\",\r\n    \"idOrderPaypal\": \"1\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{local}}/purchase/setOrder",
+									"host": [
+										"{{local}}"
+									],
+									"path": [
+										"purchase",
+										"setOrder"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "ping",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{aws}}/user/ping",
+							"host": [
+								"{{aws}}"
+							],
+							"path": [
+								"user",
+								"ping"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

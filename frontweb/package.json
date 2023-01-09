@@ -1,0 +1,80 @@
+{
+  "name": "frontweb",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@devexpress/dx-react-core": "^3.0.6",
+    "@devexpress/dx-react-grid": "^3.0.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@headlessui/react": "^1.7.4",
+    "@keycloak/keycloak-admin-client": "^19.0.3",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/lab": "^5.0.0-alpha.111",
+    "@mui/material": "^5.10.12",
+    "@mui/x-data-grid": "^5.17.9",
+    "@react-keycloak/keycloak-ts": "^0.2.4",
+    "@react-keycloak/web": "^3.4.0",
+    "@syncfusion/ej2-react-popups": "^20.3.50",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.65",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "axios": "^0.27.2",
+    "firebase": "^9.9.4",
+    "flowbite": "^1.5.3",
+    "flowbite-react": "^0.3.2",
+    "formik": "^2.2.9",
+    "headlessui": "^0.0.0",
+    "keycloak-js": "^19.0.3",
+    "phosphor-react": "^1.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-minimal-pie-chart": "^8.4.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^8.0.3",
+    "styled-components": "^5.3.6",
+    "sweetalert2": "^11.6.5",
+    "ts-keycloak-admin-client": "^0.17.1",
+    "typescript": "^4.8.4",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "react-scripts build && aws s3 sync build/ s3://urubuyweb --profile urubuy"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-cookies": "^0.1.0",
+    "@types/react-slick": "^0.23.10",
+    "@types/styled-components": "^5.1.26",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8"
+  }
+}

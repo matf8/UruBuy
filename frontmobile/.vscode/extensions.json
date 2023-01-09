@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "christian-kohler.npm-intellisense",
+    "DavidAnson.vscode-markdownlint",
+    "dsznajder.es7-react-js-snippets",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "heybourn.headwind",
+    "kisstkondoros.vscode-gutter-preview",
+    "mhutchie.git-graph",
+    "PKief.material-icon-theme",
+    "rangav.vscode-thunder-client",
+    "usernamehw.errorlens",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "wayou.vscode-todo-highlight",
+    "xabikos.JavaScriptSnippets"
+  ]
+}

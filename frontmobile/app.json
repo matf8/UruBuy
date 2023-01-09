@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "UruBuy",
+    "slug": "frontmobile",
+    "version": "1.0.0",
+    "extra": {
+      "ADMIN_ID": "7365c268-ff15-42fd-816b-4eb208f38b35",
+      "CLIENT_ID": "urubuy",
+      "CLIENT_SECRET": "eiqRw4HaFHFzxADC8lz8xdiZ9LqJz4wj",
+      "URL_LOCAL": "http://192.168.1.13:5000/",
+      "URL_CLOUD": "http://backend.uru-buy.me/",
+      "URL_KC": "http://urubuy.ddns.net:8080/realms/Urubuy/protocol/openid-connect",
+      "URL_KC_ADMIN": "http://urubuy.ddns.net:8080/admin/realms/Urubuy",
+      "DEVICE_ID": "RNExpo",
+      "eas": {
+        "projectId": "f25ad283-9f97-4f12-a6ae-fd95a159f82f"
+      }
+    },
+    "orientation": "portrait",
+    "icon": "./assets/placeholder.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0c35c5"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fing.frontmobile",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#0c35c5"
+      },
+      "permissions": ["android.permission.RECORD_AUDIO"],
+      "package": "com.fing.frontmobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ]
+  }
+}
