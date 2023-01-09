@@ -153,7 +153,7 @@ public class HelperService implements IHelperService {
 
         String to = correo; //Email address of the recipient
         final String user="urubuying@gmail.com"; //Email address of sender
-        final String password="emjuahjtoiqnldqq";  //Password of the sender's email
+        final String password="################";  //Password of the sender's email
 
         //Get the session object
         Properties p = new Properties();
